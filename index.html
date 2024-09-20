@@ -27,70 +27,13 @@
     <a-triangle position="0 -2 -2.5" color="#FFFFFF" src="yellow.jpg" rotation="-180 -180 -180"></a-triangle> <!-- Yellow trig under red sphere-->
     <a-triangle position="-2.5 0 -2" color="#FFFFFF" src="teal.jpg" rotation="-180 -180 -180"></a-triangle> <!-- Light blue trig under red sphere-->
     <!--Rectangles-->
-    <a-entity 
-      geometry="primitive: box; 
-                width: 1; 
-                height: 1; 
-                depth: 1"
-      material="color: #87CEEB; opacity: 1"
-      position="-1 0 -2.5"
-      rotation="-180 0 75"> <!--Sky Blue Box next to Red Sphere-->
-    </a-entity>
-    <a-entity 
-    geometry="primitive: box; 
-              width: 1; 
-              height: 1; 
-              depth: 1"
-    color="#FFFFFF" src="teal.jpg"
-    position="5 0 -4"
-    rotation="-180 0 230"> <!--Teal Box-->
-  </a-entity>
-  <a-entity 
-  geometry="primitive: box; 
-            width: 1; 
-            height: 1; 
-            depth: 1"
-  color="#ADD8E6"
-  position="4 0 -4"
-  rotation="0 0 0"> <!--Light Blue Box next to Teal Box-->
-</a-entity>
-<a-entity 
-geometry="primitive: box; 
-          width: 3; 
-          height: 1; 
-          depth: 1"
-          color="#FFFFFF" src="teal.jpg"
-position="3 -3 -3"
-rotation="0 0 0"> <!--Light Blue Rectangle under Blue Triangle-->
-</a-entity>
-<a-box 
-          width="1" 
-          height="1" 
-          depth="1"
-          color="#FFFFFF" src="yellow.jpg"
-position="5 -2 -3"
-rotation="0 0 -135"> <!--Yellow Box-->
-</a-box>
-<a-entity 
-geometry="primitive: box; 
-          width: .5; 
-          height: 1; 
-          depth: 1"
-color="#FFFFFF" src="dark blue.jpg"
-transparent = "true" opacity=".9"
-position="5 0 -3"
-rotation="0 0 -50"> <!--Blue Rectangle-->
-</a-entity>
-<a-entity 
-geometry="primitive: box; 
-          width: .5; 
-          height: 1; 
-          depth: 1"
-color="#FFFFFF"
-position="-1 -2 -3"
-rotation="0 0 -160"> <!--Light Blue Rectangle under Blue Triangle-->
-</a-entity>
-</a-entity>
+    <a-box width="1" height="1" depth="1" color="#87CEEB" position="-1 0 -2.5"rotation="-180 0 75"></a-box> <!--Sky Blue Box next to Red Sphere-->
+    <a-box width="1" height="1" depth="1" color="#FFFFFF" src="teal.jpg" position="5 0 -4" rotation="-180 0 230"></a-box> <!--Teal Box-->
+    <a-box width="1" height="1" depth="1" color="#ADD8E6" position="4 0 -4" rotation="0 0 0"></a-box> <!--Light Blue Box next to Teal Box-->
+    <a-box width="3" height="1" depth="1" color="#FFFFFF" src="teal.jpg" position="3 -3 -3" rotation="0 0 0"></a-box>  <!--Light Blue Rectangle under Blue Triangle-->
+    <a-box width="1" height="1" depth="1" color="#FFFFFF" src="yellow.jpg" position="5 -2 -3" rotation="0 0 -135"></a-box> <!--Yellow Box-->
+    <a-box width=".5" height="1" depth="1" color="#FFFFFF" src="dark blue.jpg" transparent = "true" opacity=".9" position="5 0 -3" rotation="0 0 -50"></a-box> <!--Blue Rectangle-->
+    <a-box width=".5" height="1" depth="1" color="#FFFFFF" position="-1 -2 -3" rotation="0 0 -160"></a-box> <!--Light Blue Rectangle under Blue Triangle-->
   </a-scene>
   </a-scene>
 </body>
